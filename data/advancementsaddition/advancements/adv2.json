@@ -1,0 +1,20 @@
+﻿{
+    "__comment": "by xiao_le_",
+    "display": {
+        "title": {
+            "translate": "advancements.advancementsaddition.adv2.title"
+        },
+        "description": {
+            "translate": "advancements.advancementsaddition.adv2.description"
+        },
+        "icon": {
+            "item": "minecraft:blackstone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {},
+    "parent": "advancements:dirt_xing"
+}

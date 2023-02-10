@@ -1,0 +1,35 @@
+﻿{
+    "__comment": "by xiao_le_",
+    "display": {
+        "title": {
+            "translate": "advancements.advancementsaddition.dirt_xing.title"
+        },
+        "description": {
+            "translate": "advancements.advancementsaddition.dirt_xing.description"
+        },
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dirt": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "count": {
+                        "min": 1,
+                        "max": 1
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "advancements:root"
+}

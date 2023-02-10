@@ -1,0 +1,33 @@
+﻿{
+    "__comment": "by xiao_le_",
+    "display": {
+        "title": {
+            "translate": "advancements.advancementsaddition.100level_enchant.title"
+        },
+        "description": {
+            "translate": "advancements.advancementsaddition.100level_enchant.description"
+        },
+        "icon": {
+            "item": "minecraft:lapis_block",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "100level_enchant": {
+            "trigger": "minecraft:enchanted_item",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "level": 100
+                    }
+                }
+            }
+        }
+    },
+    "parent": "advancements:root"
+}

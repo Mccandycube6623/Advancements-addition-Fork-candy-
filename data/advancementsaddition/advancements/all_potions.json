@@ -1,0 +1,255 @@
+﻿{
+    "__comment": "by xiao_le_",
+    "display": {
+        "title": {
+            "translate": "advancements.advancementsaddition.all_potions.title"
+        },
+        "description": {
+            "translate": "advancements.advancementsaddition.all_potions.description"
+        },
+        "icon": {
+            "item": "minecraft:potion"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "awkward": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion":"minecraft:awkward"
+                    }
+                ]
+            }
+        },
+        "fire_resistance": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion":"minecraft:fire_resistance"
+                    }
+                ]
+            }
+        },
+        "harming": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion":"minecraft:harming"
+                    }
+                ]
+            }
+        },
+        "healing": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion":"minecraft:healing"
+                    }
+                ]
+            }
+        },
+        "invisibility": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion":"minecraft:invisibility"
+                    }
+                ]
+            }
+        },
+        "leaping": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion":"minecraft:leaping"
+                    }
+                ]
+            }
+        },
+        "mundane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion":"minecraft:mundane"
+                    }
+                ]
+            }
+        },
+        "night_vision": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion":"minecraft:night_vision"
+                    }
+                ]
+            }
+        },
+        "poison": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion":"minecraft:poison"
+                    }
+                ]
+            }
+        },
+        "regeneration": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion":"minecraft:regeneration"
+                    }
+                ]
+            }
+        },
+        "slow_falling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion":"minecraft:slow_falling"
+                    }
+                ]
+            }
+        },
+        "slowness": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion":"minecraft:slowness"
+                    }
+                ]
+            }
+        },
+        "strength": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion":"minecraft:strength"
+                    }
+                ]
+            }
+        },
+        "swiftness": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion":"minecraft:swiftness"
+                    }
+                ]
+            }
+        },
+        "thick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion":"minecraft:thick"
+                    }
+                ]
+            }
+        },
+        "turtle_master": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion":"minecraft:turtle_master"
+                    }
+                ]
+            }
+        },
+        "water_breathing": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion":"minecraft:water_breathing"
+                    }
+                ]
+            }
+        },
+        "weakness": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion":"minecraft:weakness"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "advancements:root"
+}

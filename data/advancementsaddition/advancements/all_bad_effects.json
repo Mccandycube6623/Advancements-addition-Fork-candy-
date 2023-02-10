@@ -1,0 +1,41 @@
+﻿{
+    "___comment": "minecraft:darkness is Minecraft 1.19 effects",
+    "__comment": "by xiao_le_",
+    "display": {
+        "title": {
+            "translate": "advancements.advancementsaddition.all_bad_effects.title"
+        },
+        "description": {
+            "translate": "advancements.advancementsaddition.all_bad_effects.description"
+        },
+        "icon": {
+            "item": "minecraft:poisonous_potato"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "rewards": {
+        "experience": 1000
+    },
+    "criteria": {
+        "all_bad_effects": {
+            "trigger": "minecraft:effects_changed",
+                "conditions": {
+                "effects": {
+                "minecraft:slowness": {},
+                "minecraft:weakness": {},
+                "minecraft:poison": {},
+                "minecraft:wither": {},
+                "minecraft:mining_fatigue": {},
+                "minecraft:levitation": {},
+                "minecraft:hunger": {},
+                "minecraft:nausea": {},
+                "minecraft:blindness": {}
+                }
+            }
+        }
+    },
+    "parent": "advancements:root"
+}
