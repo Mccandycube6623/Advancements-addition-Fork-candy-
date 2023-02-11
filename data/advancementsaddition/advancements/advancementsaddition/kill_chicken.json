@@ -1,0 +1,34 @@
+﻿{
+    "parent": "advancementsaddition:advancementsaddition/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_chicken"
+        },
+        "title": {
+            "translate": "advancements.advancementsaddition.kill_chicken.title"
+        },
+        "description": {
+            "translate": "advancements.advancementsaddition.kill_chicken.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "kill_chicken": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "type": "minecraft:chicken"
+                        },
+                        "entity": "this"
+                    }
+                ]
+            }
+        }
+    }
+}

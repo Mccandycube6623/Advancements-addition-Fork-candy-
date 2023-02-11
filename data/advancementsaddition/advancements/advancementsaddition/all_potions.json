@@ -16,19 +16,6 @@
         "hidden": false
     },
     "criteria": {
-        "awkward": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:potion"
-                        ],
-                        "potion":"minecraft:awkward"
-                    }
-                ]
-            }
-        },
         "fire_resistance": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -90,19 +77,6 @@
                             "minecraft:potion"
                         ],
                         "potion":"minecraft:leaping"
-                    }
-                ]
-            }
-        },
-        "mundane": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:potion"
-                        ],
-                        "potion":"minecraft:mundane"
                     }
                 ]
             }
@@ -198,19 +172,6 @@
                 ]
             }
         },
-        "thick": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:potion"
-                        ],
-                        "potion":"minecraft:thick"
-                    }
-                ]
-            }
-        },
         "turtle_master": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -251,5 +212,5 @@
             }
         }
     },
-    "parent": "advancements:root"
+    "parent": "advancementsaddition:advancementsaddition/root"
 }

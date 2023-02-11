@@ -1,0 +1,38 @@
+{
+  "parent": "advancementsaddition:advancementsaddition/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:respawn_anchor"
+    },
+    "title": {
+      "translate": "advancements.advancementsaddition.respawn_anchor_in_overworld.title"
+    },
+    "description": {
+      "translate": "advancements.advancementsaddition.respawn_anchor_in_overworld.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "respawn_anchor_in_overworld": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:respawn_anchor"
+            ]
+          },
+          "dimension": "minecraft:overworld"
+        },
+        "item": {
+          "items": [
+            "glowstone"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+﻿{
+    "parent": "advancementsaddition:advancementsaddition/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {
+            "translate": "advancements.advancementsaddition.kill_wither_feather.title"
+        },
+        "description": {
+            "translate": "advancements.advancementsaddition.kill_wither_feather.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "minecraft:wither": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "type": "minecraft:wither"
+                        },
+                        "entity": "this"
+                    }
+                ],
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:feather"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "minecraft:wither"
+        ]
+    ]
+}

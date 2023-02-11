@@ -2,34 +2,31 @@
     "__comment": "by xiao_le_",
     "display": {
         "title": {
-            "translate": "advancements.advancementsaddition.root.title"
+            "translate": "advancements.advancementsaddition.dirt_star.title"
         },
         "description": {
+            "translate": "advancements.advancementsaddition.dirt_star.description"
         },
         "icon": {
-            "item": "minecraft:enchanted_golden_apple"
+            "item": "minecraft:dirt"
         },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
-        "hidden": true,
-        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+        "hidden": false
     },
     "criteria": {
-        "apple": {
+        "dirt": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:enchanted_golden_apple",
-                    "count": {
-                        "min": 1,
-                        "max": 1
-                    }
+                    "count": 1
                 }
             }
         }
     },
     "rewards": {
         "experience": 10
-    }
+    },
+    "parent": "advancementsaddition:advancementsaddition/root"
 }

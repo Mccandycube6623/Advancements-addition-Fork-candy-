@@ -1,0 +1,29 @@
+﻿{
+    "display": {
+        "icon": {
+            "item": "minecraft:white_banner",
+            "nbt": "{BlockEntityTag:{Patterns:[{Color:9,Pattern:\"mr\"},{Color:8,Pattern:\"bs\"},{Color:7,Pattern:\"cs\"},{Color:8,Pattern:\"bo\"},{Color:15,Pattern:\"ms\"},{Color:8,Pattern:\"hh\"},{Color:8,Pattern:\"mc\"},{Color:15,Pattern:\"bo\"}]}}"
+        },
+        "title": {
+            "translate": "advancements.advancementsaddition.voluntary_exile.title"
+        },
+        "description": {
+            "translate": "advancements.advancementsaddition.voluntary_exile.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "advancementsaddition:advancementsaddition/root",
+    "criteria": {
+        "voluntary_exile": {
+            "trigger": "minecraft:voluntary_exile"
+        }
+    },
+    "requirements": [
+        [
+            "voluntary_exile"
+        ]
+    ]
+}

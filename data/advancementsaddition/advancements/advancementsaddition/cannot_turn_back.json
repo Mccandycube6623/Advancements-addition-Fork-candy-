@@ -1,0 +1,32 @@
+﻿{
+    "__comment": "by xiao_le_",
+    "display": {
+        "title": {
+            "translate": "advancements.advancementsaddition.cannot_turn_back.title"
+        },
+        "description": {
+            "translate": "advancements.advancementsaddition.cannot_turn_back.description"
+        },
+        "icon": {
+            "item": "minecraft:stone_sword",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cannot_turn_back": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player":{
+                    "flags": {
+                        "is_on_fire": true
+                    }
+                }
+            }
+        }
+    },
+    "parent": "advancementsaddition:advancementsaddition/root"
+}

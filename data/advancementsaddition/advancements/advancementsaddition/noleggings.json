@@ -1,0 +1,52 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_leggings"
+		},
+		"title": {
+			"translate": "advancements.advancementsaddition.noleggings.title"
+		},
+		"description": {
+			"translate": "advancements.advancementsaddition.noleggings.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "advancementsaddition:advancementsaddition/root",
+	"criteria": {
+		"noleggings": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					
+					"equipment": {
+						"head": {
+							"items": [
+								"iron_helmet"
+							]
+						},
+						"chest": {
+							"items": [
+								"iron_chestplate"
+							]
+						},
+						"legs": {
+						},
+						"feet": {
+							"items": [
+								"iron_boots"
+							]
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"noleggings"
+		]
+	]
+}

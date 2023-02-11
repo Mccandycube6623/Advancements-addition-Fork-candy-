@@ -1,0 +1,31 @@
+﻿{
+    "__comment": "by xiao_le_",
+    "display": {
+        "title": {
+            "translate": "advancements.advancementsaddition.wood.title"
+        },
+        "description": {
+            "translate": "advancements.advancementsaddition.wood.description"
+        },
+        "icon": {
+            "item": "minecraft:oak_log"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag":"minecraft:logs"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "advancementsaddition:advancementsaddition/root"
+}

@@ -1,0 +1,44 @@
+﻿{
+    "__comment": "by xiao_le_",
+    "display": {
+        "title": {
+            "translate": "advancements.advancementsaddition.broke_invisi.title"
+        },
+        "description": {
+            "translate": "advancements.advancementsaddition.broke_invisi.description"
+        },
+        "icon": {
+            "item": "minecraft:glass_pane"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "broke_invisi": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension":"overworld",
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                            "type": "minecraft:mined",
+                            "stat": "minecraft:glass_pane",
+                            "value": 64
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "broke_invisi"
+        ]
+    ],
+    "parent": "advancementsaddition:advancementsaddition/root"
+}

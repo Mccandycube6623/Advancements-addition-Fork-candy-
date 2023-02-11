@@ -1,0 +1,38 @@
+{
+	"__comment": "by xiao_le_",
+	"display": {
+			"title": {
+					"translate": "advancements.advancementsaddition.cuttingtime.title"
+			},
+			"description": {
+					"translate": "advancements.advancementsaddition.cuttingtime.description"
+			},
+			"icon": {
+					"item": "minecraft:stone_axe"
+			},
+			"frame": "task",
+			"show_toast": true,
+			"announce_to_chat": true,
+			"hidden": false
+	},
+	"criteria": {
+			"cuttingtime": {
+					"trigger": "minecraft:inventory_changed",
+					"conditions": {
+							"items": [
+									{
+											"items": [
+												"iron_axe",
+												"golden_axe",
+												"wooden_axe",
+												"diamond_axe",
+												"netherite_axe",
+												"stone_axe"
+											]
+									}
+							]
+					}
+			}
+	},
+	"parent": "advancementsaddition:advancementsaddition/root"
+}

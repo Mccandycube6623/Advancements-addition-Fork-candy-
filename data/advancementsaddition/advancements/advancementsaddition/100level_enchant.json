@@ -23,11 +23,13 @@
                 "player": {
                     "type_specific": {
                         "type": "player",
-                        "level": 100
+                        "level": {
+                            "min": 100
+                        }
                     }
                 }
             }
         }
     },
-    "parent": "advancements:root"
+    "parent": "advancementsaddition:advancementsaddition/root"
 }

@@ -1,0 +1,35 @@
+{
+  "parent": "advancementsaddition:advancementsaddition/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "advancements.advancementsaddition.redstone.title"
+    },
+    "description": {
+      "translate": "advancements.advancementsaddition.redstone.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "redstone": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:repeater"
+            ],
+            "state": {
+              "charges": "100"
+            }
+          }
+        }
+      }
+    }
+  }
+}

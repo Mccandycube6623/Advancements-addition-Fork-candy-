@@ -1,0 +1,32 @@
+﻿{
+    "__comment": "by xiao_le_",
+    "display": {
+        "title": {
+            "translate": "advancements.advancementsaddition.car_kill.title"
+        },
+        "description": {
+            "translate": "advancements.advancementsaddition.car_kill.description"
+        },
+        "icon": {
+            "item": "minecraft:iron_sword",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "car_kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player":{
+                    "vehicle": {
+                        "type": "minecraft:minecart"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "advancementsaddition:advancementsaddition/root"
+}

@@ -1,0 +1,33 @@
+﻿{
+    "__comment": "by xiao_le_",
+    "display": {
+        "title": {
+            "translate": "advancements.advancementsaddition.gray_blue.title"
+        },
+        "description": {
+            "translate": "advancements.advancementsaddition.gray_blue.description"
+        },
+        "icon": {
+            "item": "minecraft:gray_terracotta"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "gray_blue": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items":[
+                            "gray_terracotta"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "advancementsaddition:advancementsaddition/root"
+}
