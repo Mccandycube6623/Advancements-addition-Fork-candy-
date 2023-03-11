@@ -19,7 +19,7 @@
 	"advancements.advancementsaddition.car_kill.title":"开车谋杀",
 	"advancements.advancementsaddition.respawn_anchor_in_overworld.description":"在主世界填充§m站长喵§r重生锚",
 	"advancements.advancementsaddition.respawn_anchor_in_overworld.title":"再多看一眼就会爆炸",
-	"advancements.advancementsaddition.redstone.description":"累计调节100次红色中继器的延时",
+	"advancements.advancementsaddition.redstone.description":"累计调节100次红石中继器的延时",
 	"advancements.advancementsaddition.redstone.title":"算来算去算来放弃",
 	"advancements.advancementsaddition.gray_blue.description":"制作灰色陶瓦",
 	"advancements.advancementsaddition.gray_blue.title":"灰色と青",
@@ -38,5 +38,11 @@
 	"advancements.advancementsaddition.kill_wither_feather.description":"用羽毛击杀1只凋灵",
 	"advancements.advancementsaddition.kill_wither_feather.title":"《匕首》",
 	"advancements.advancementsaddition.noleggings.description":"穿戴铁头盔、铁胸甲和铁靴子时不穿戴铁护腿",
-	"advancements.advancementsaddition.noleggings.title":"勇者不穿裤子"
+	"advancements.advancementsaddition.noleggings.title":"勇者不穿裤子",
+	"chem.advancementsaddition.root.description":"化学",
+	"chem.advancementsaddition.root.title":"§ac§bh§ce§dm§es§r§kawoawoawo§r",
+	"stats.advancementsaddition.root.description":"收集各种材料",
+	"stats.advancementsaddition.root.title":"§b收藏家§r",
+	"stats.advancementsaddition.stone1.description":"收集一个石头",
+	"stats.advancementsaddition.stone1.title":"§7石匠§r"
 }

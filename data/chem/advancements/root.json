@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:firework_star",
+			"nbt": "{CustomModelData:10006623}"
+		},
+		"title": {
+			"translate": "chem.advancementsaddition.root.title"
+		},
+		"description": {
+			"translate": "chem.advancementsaddition.root.description"
+		}
+	},
+	"criteria": {
+		"conditions": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:firework_star"
+						],
+						"nbt": "{CustomModelData:10006623}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"loot": [
+			"chem:smalltesttube"
+		]
+	}
+}

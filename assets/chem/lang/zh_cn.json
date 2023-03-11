@@ -1,0 +1,15 @@
+{
+	"item.chem.smalltesttube":"小试管",
+	"item.chem.largetesttube":"大试管",
+	"item.chem.beaker":"烧杯",
+	"item.chem.jar":"广口瓶",
+	"item.chem.thinjar":"细口瓶",
+	"item.chem.brownjar":"棕色广口瓶",
+	"item.chem.brownthinjar":"棕色细口瓶",
+	"item.chem.gascollectioncylinder":"集气瓶",
+	"item.chem.browngascollectioncylinder":"棕色集气瓶",
+	"item.chem.graduatedcylinder":"量筒",
+	"item.chem.thinglassjar":"细口瓶（玻璃塞）",
+	"item.chem.erlenmeyerflask":"锥形瓶",
+	"item.chem.roundbottomflask":"圆底烧瓶"
+}

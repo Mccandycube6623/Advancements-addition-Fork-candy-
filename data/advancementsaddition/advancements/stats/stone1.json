@@ -1,0 +1,43 @@
+﻿{
+    "display": {
+        "title": {
+            "translate": "stats.advancementsaddition.stone1.title"
+        },
+        "description": {
+            "translate": "stats.advancementsaddition.stone1.description"
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "stone1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension":"overworld",
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                            "type": "minecraft:mined",
+                            "stat": "minecraft:stone",
+                            "value": 1
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "stone1"
+        ]
+    ],
+    "parent": "advancementsaddition:stats/root"
+}

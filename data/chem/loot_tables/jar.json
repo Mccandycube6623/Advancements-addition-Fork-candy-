@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{id:'chem:jar',display:{Name:'{\"translate\":\"item.chem.jar\"}'},CustomModelData:10036623}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
