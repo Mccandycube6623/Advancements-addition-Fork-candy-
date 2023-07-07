@@ -44,5 +44,7 @@
 	"stats.advancementsaddition.root.description":"收集各种材料",
 	"stats.advancementsaddition.root.title":"§b收藏家§r",
 	"stats.advancementsaddition.stone1.description":"收集一个石头",
-	"stats.advancementsaddition.stone1.title":"§7石匠§r"
+	"stats.advancementsaddition.stone1.title":"§7石匠§r",
+	"advancements.advancementsaddition.big_rich.title":"大富豪的诞生",
+	"advancements.advancementsaddition.big_rich.description":"获得一个金锭"
 }

@@ -1,0 +1,6 @@
+{
+	"parent": "chem:machine/machine",
+	"textures": {
+		"layer0": "chem:machine/chem_machine"
+	}
+}

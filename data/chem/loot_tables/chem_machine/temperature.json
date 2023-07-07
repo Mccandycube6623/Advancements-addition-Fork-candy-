@@ -1,0 +1,71 @@
+{
+	"pools": [
+		{
+			"rolls": 1.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{chemClear:1b,display:{Lore:['{\"italic\":false,\"translate\":\"lore.chem.switch\",\"color\":\"green\"}']}}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"chemAiomTemp": 0
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.chem.low_temperature\"}'},CustomModelData:12336623}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"chemAiomTemp": 1
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.chem.normal_temperature\"}'},CustomModelData:12346623}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"chemAiomTemp": 2
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.chem.heat\"}'},CustomModelData:12356623}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"chemAiomTemp": 3
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.chem.high_temperature\"}'},CustomModelData:12366623}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

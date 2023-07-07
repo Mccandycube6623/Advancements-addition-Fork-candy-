@@ -38,5 +38,7 @@
 	"advancements.advancementsaddition.kill_wither_feather.description":"use feather kill wither",
 	"advancements.advancementsaddition.kill_wither_feather.title":"§odagger§r",
 	"advancements.advancementsaddition.noleggings.description":"Iron helmets, Iron chestplate and iron boots,none iron leggings",
-	"advancements.advancementsaddition.noleggings.title":"Braver do not wear leggings"
+	"advancements.advancementsaddition.noleggings.title":"Braver do not wear leggings",
+	"advancements.advancementsaddition.big_rich.title":"The birth of the Big Rich",
+	"advancements.advancementsaddition.big_rich.description":"Get a gold_ingot"
 }

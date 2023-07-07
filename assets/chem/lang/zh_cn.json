@@ -11,5 +11,18 @@
 	"item.chem.graduatedcylinder":"量筒",
 	"item.chem.thinglassjar":"细口瓶（玻璃塞）",
 	"item.chem.erlenmeyerflask":"锥形瓶",
-	"item.chem.roundbottomflask":"圆底烧瓶"
+	"item.chem.roundbottomflask":"圆底烧瓶",
+	"item.chem_machine":"化学制造机",
+	"lore.chem.switch": "点击切换",
+	"item.chem.low_pressure": "低压",
+	"item.chem.normal_pressure": "常压",
+	"item.chem.high_pressure": "高压",
+	"item.chem.low_temperature": "低温",
+	"item.chem.normal_temperature": "常温",
+	"item.chem.heat": "加热",
+	"item.chem.high_temperature": "高温",
+	"item.chem.light": "光照",
+	"item.chem.elec": "通电",
+	"item.chem.ignite": "点燃",
+	"item.chem.nan": "无"
 }

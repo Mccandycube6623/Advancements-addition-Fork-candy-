@@ -1,0 +1,11 @@
+{
+	"parent": "item/generated",
+	"display": {
+		"gui": {
+			"translation": [ -18, 0, 1 ]
+		},
+		"ground": {
+			"scale": [ 0, 0, 0 ]
+		}
+	}
+}

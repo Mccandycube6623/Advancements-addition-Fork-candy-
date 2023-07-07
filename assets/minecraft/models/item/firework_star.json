@@ -1,21 +1,21 @@
 {
-	"parent": "item/handheld_rod",
+	"parent": "item/handheld",
 	"textures": {
 		"layer0": "item/firework_star"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": 10006623 }, "model": "chem:chem/smalltesttube"},
-		{ "predicate": { "custom_model_data": 10016623 }, "model": "chem:chem/largetesttube"},
-		{ "predicate": { "custom_model_data": 10026623 }, "model": "chem:chem/beaker"},
-		{ "predicate": { "custom_model_data": 10036623 }, "model": "chem:chem/jar"},
-		{ "predicate": { "custom_model_data": 10046623 }, "model": "chem:chem/thinjar"},
-		{ "predicate": { "custom_model_data": 10056623 }, "model": "chem:chem/brownjar"},
-		{ "predicate": { "custom_model_data": 10066623 }, "model": "chem:chem/brownthinjar"},
-		{ "predicate": { "custom_model_data": 10076623 }, "model": "chem:chem/gascollectioncylinder"},
-		{ "predicate": { "custom_model_data": 10086623 }, "model": "chem:chem/browngascollectioncylinder"},
-		{ "predicate": { "custom_model_data": 10096623 }, "model": "chem:chem/graduatedcylinder"},
-		{ "predicate": { "custom_model_data": 10106623 }, "model": "chem:chem/thinglassjar"},
-		{ "predicate": { "custom_model_data": 10116623 }, "model": "chem:chem/erlenmeyerflask"},
-		{ "predicate": { "custom_model_data": 10126623 }, "model": "chem:chem/roundbottomflask"}
+		{ "predicate": { "custom_model_data": 10006623 }, "model": "chem:item/smalltesttube"},
+		{ "predicate": { "custom_model_data": 10016623 }, "model": "chem:item/largetesttube"},
+		{ "predicate": { "custom_model_data": 10026623 }, "model": "chem:item/beaker"},
+		{ "predicate": { "custom_model_data": 10036623 }, "model": "chem:item/jar"},
+		{ "predicate": { "custom_model_data": 10046623 }, "model": "chem:item/thinjar"},
+		{ "predicate": { "custom_model_data": 10056623 }, "model": "chem:item/brownjar"},
+		{ "predicate": { "custom_model_data": 10066623 }, "model": "chem:item/brownthinjar"},
+		{ "predicate": { "custom_model_data": 10076623 }, "model": "chem:item/gascollectioncylinder"},
+		{ "predicate": { "custom_model_data": 10086623 }, "model": "chem:item/browngascollectioncylinder"},
+		{ "predicate": { "custom_model_data": 10096623 }, "model": "chem:item/graduatedcylinder"},
+		{ "predicate": { "custom_model_data": 10106623 }, "model": "chem:item/thinglassjar"},
+		{ "predicate": { "custom_model_data": 10116623 }, "model": "chem:item/erlenmeyerflask"},
+		{ "predicate": { "custom_model_data": 10126623 }, "model": "chem:item/roundbottomflask"}
 	]
 }
