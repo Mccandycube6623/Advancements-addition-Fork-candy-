@@ -23,10 +23,20 @@
           "block": {
             "blocks": [
               "minecraft:repeater"
-            ],
-            "state": {
-              "charges": "100"
-            }
+            ]
+          }
+        },
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "stat": "used:repeater",
+                "value":{
+                  "min":100
+                }
+              }
+            ]
           }
         }
       }

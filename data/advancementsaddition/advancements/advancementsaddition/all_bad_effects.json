@@ -1,5 +1,4 @@
 ﻿{
-    "___comment": "minecraft:darkness is Minecraft 1.19 effects",
     "__comment": "by xiao_le_",
     "display": {
         "title": {
@@ -24,15 +23,16 @@
             "trigger": "minecraft:effects_changed",
                 "conditions": {
                 "effects": {
-                "minecraft:slowness": {},
-                "minecraft:weakness": {},
-                "minecraft:poison": {},
-                "minecraft:wither": {},
-                "minecraft:mining_fatigue": {},
-                "minecraft:levitation": {},
-                "minecraft:hunger": {},
-                "minecraft:nausea": {},
-                "minecraft:blindness": {}
+                    "minecraft:darkness":{},
+                    "minecraft:slowness": {},
+                    "minecraft:weakness": {},
+                    "minecraft:poison": {},
+                    "minecraft:wither": {},
+                    "minecraft:mining_fatigue": {},
+                    "minecraft:levitation": {},
+                    "minecraft:hunger": {},
+                    "minecraft:nausea": {},
+                    "minecraft:blindness": {}
                 }
             }
         }
