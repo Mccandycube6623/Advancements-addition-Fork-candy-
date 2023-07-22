@@ -31,7 +31,8 @@
             "type": "player",
             "stats": [
               {
-                "stat": "used:repeater",
+                "stat": "repeater",
+                "type": "minecraft:used",
                 "value":{
                   "min":100
                 }
