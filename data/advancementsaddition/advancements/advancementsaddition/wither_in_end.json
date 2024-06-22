@@ -1,0 +1,45 @@
+﻿{
+    "parent": "advancementsaddition:advancementsaddition/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "title": {
+            "translate": "advancements.advancementsaddition.wither_in_end.title"
+        },
+        "description": {
+            "translate": "advancements.advancementsaddition.wither_in_end.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "minecraft:wither": {
+            "trigger": "summoned_entity",
+            "conditions": {
+                "entity": "wither",
+                "player": {
+                    "location": {
+                        "dimension": "the_end"
+                    }
+                }
+            }
+        },
+        "minecraft:ender_dragon":{
+            "trigger": "summoned_entity",
+            "conditions": {
+                "entity": "ender_dragon"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "minecraft:wither"
+        ],
+        [
+            "minecraft:ender_dragon"
+        ]
+    ]
+}

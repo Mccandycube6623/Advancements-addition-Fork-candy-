@@ -1,0 +1,48 @@
+﻿{
+    "__comment": "by xiao_le_",
+    "display": {
+        "title": {
+            "translate": "advancements.advancementsaddition.totem_of_undying2.title"
+        },
+        "description": {
+            "translate": "advancements.advancementsaddition.totem_of_undying2.description"
+        },
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag":"minecraft:totem_of_undying"
+                    }
+                ],
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "totem_of_undying"
+                            ]
+                        },
+                        "offhand": {
+                            "items": [
+                                "totem_of_undying"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "advancementsaddition:advancementsaddition/root",
+    "rewards": {
+        "experience": 100
+    }
+}

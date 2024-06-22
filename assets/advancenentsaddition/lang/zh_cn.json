@@ -46,5 +46,9 @@
 	"stats.advancementsaddition.stone1.description":"收集一个石头",
 	"stats.advancementsaddition.stone1.title":"§7石匠§r",
 	"advancements.advancementsaddition.big_rich.title":"大富豪的诞生",
-	"advancements.advancementsaddition.big_rich.description":"获得一个金锭"
+	"advancements.advancementsaddition.big_rich.description":"获得一个金锭",
+	"advancements.advancementsaddition.wither_in_end.title":"首领混战",
+	"advancements.advancementsaddition.wither_in_end.description":"在末地召唤凋灵和末影龙",
+	"advancements.advancementsaddition.totem_of_undying2.title":"双手携带两个不死图腾",
+	"advancements.advancementsaddition.totem_of_undying2.description":"神，不惧死亡"
 }

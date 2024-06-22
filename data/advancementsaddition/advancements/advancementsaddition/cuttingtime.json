@@ -21,14 +21,14 @@
 					"conditions": {
 							"items": [
 									{
-											"items": [
-												"iron_axe",
-												"golden_axe",
-												"wooden_axe",
-												"diamond_axe",
-												"netherite_axe",
-												"stone_axe"
-											]
+										"items": [
+											"iron_axe",
+											"golden_axe",
+											"wooden_axe",
+											"diamond_axe",
+											"netherite_axe",
+											"stone_axe"
+										]
 									}
 							]
 					}
